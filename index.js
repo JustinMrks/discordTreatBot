@@ -48,7 +48,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
   } catch (err) {
     console.error(err);
     await interaction.reply({
-      content: 'There was an error while tryuing to execute this command',
+      content: 'There was an error while trying to execute this command',
       ephemeral: true,
     });
   }
